@@ -137,10 +137,20 @@ h6 {
 }
 
 /* ========= Types ===========*/
+.types {
+  padding: 50px 0;
+}
 
 .types__content {
-  display: flex;
   border: 1px solid black;
+}
+
+@media (min-width: 768px) {
+  .types__content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+  }
 }
 
 .types__content:not(:last-child) {
@@ -150,7 +160,13 @@ h6 {
 .box-image {
   width: 260px;
   padding: 10px 10px 0;
-  border-right: 1px solid black;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .box-image {
+    border-right: 1px solid black;
+  }
 }
 
 .type-image {
@@ -160,9 +176,14 @@ h6 {
 
 .box__description {
   width: 100%;
-  padding: 10px 10px 20px 60px;
-  /* border: 1px solid black; */
+  padding: 10px 10px 20px 25px;
   border-left: none;
+}
+
+@media (min-width: 768px) {
+  .box__description {
+    padding: 10px 10px 20px 60px;
+  }
 }
 
 .box__list {
@@ -176,3 +197,5 @@ h6 {
 .box__text {
   font-size: 16px;
 }
+
+/* ========= Types ===========*/
