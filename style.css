@@ -51,6 +51,11 @@ h6 {
   margin-bottom: 24px;
 }
 
+.title {
+  text-align: left;
+  margin-bottom: 0;
+}
+
 /* ========= Container ===========*/
 [class*="__container"] {
   max-width: 1200px;
@@ -129,4 +134,40 @@ h6 {
 
 .ceiling__text:not(:last-child) {
   margin-bottom: 20px;
+}
+
+/* ========= Types ===========*/
+
+.types__content {
+  display: flex;
+}
+
+.box-image {
+  width: 260px;
+  padding: 10px 10px 0;
+  border: 1px solid black;
+}
+
+.type-image {
+  width: 240px;
+  height: 200px;
+}
+
+.box__description {
+  width: 100%;
+  padding: 10px 10px 20px 60px;
+  border: 1px solid black;
+  border-left: none;
+}
+
+.box__list {
+  margin-bottom: 55px;
+}
+
+.box__item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.box__text {
+  font-size: 16px;
 }
