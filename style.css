@@ -140,12 +140,17 @@ h6 {
 
 .types__content {
   display: flex;
+  border: 1px solid black;
+}
+
+.types__content:not(:last-child) {
+  border-bottom: none;
 }
 
 .box-image {
   width: 260px;
   padding: 10px 10px 0;
-  border: 1px solid black;
+  border-right: 1px solid black;
 }
 
 .type-image {
@@ -156,7 +161,7 @@ h6 {
 .box__description {
   width: 100%;
   padding: 10px 10px 20px 60px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   border-left: none;
 }
 
