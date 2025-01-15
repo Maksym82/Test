@@ -204,17 +204,43 @@ h6 {
   background-color: burlywood;
 }
 
-.advantages__box {
-  display: flex;
+@media (min-width: 768px) {
+  .advantages-title {
+    margin-right: 290px;
+  }
+}
+
+.advantages p {
+  line-height: 1.4;
+}
+
+@media (min-width: 768px) {
+  .advantages__box {
+    display: flex;
+  }
 }
 
 .advantages__img {
-  width: 300px;
+  display: block;
+  margin: 0 auto;
+  width: 290px;
 }
 
-.advantages__text {
+@media (min-width: 768px) {
+  .advantages__img {
+    margin: 0;
+  }
+}
+
+.advantages__box-text {
   max-width: 460px;
-  line-height: 1.4;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .advantages__box-text {
+    margin: 0;
+  }
 }
 
 .advantages p {
@@ -223,4 +249,35 @@ h6 {
 
 .advantages p:first-child {
   margin-bottom: 40px;
+}
+.advantages p:last-child {
+  margin-bottom: 0;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.advantages p:not(:last-child) {
+  margin-bottom: 50px;
+}
+
+/* ========= Durability ===========*/
+.durability {
+  max-width: 900px;
+  padding: 30px;
+  margin: 0 auto;
+}
+
+.durability__title {
+  font-weight: 500;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.durability__list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
