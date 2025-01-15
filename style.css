@@ -199,3 +199,28 @@ h6 {
 }
 
 /* ========= Types ===========*/
+.advantages {
+  padding: 50px 0;
+  background-color: burlywood;
+}
+
+.advantages__box {
+  display: flex;
+}
+
+.advantages__img {
+  width: 300px;
+}
+
+.advantages__text {
+  max-width: 460px;
+  line-height: 1.4;
+}
+
+.advantages p {
+  margin-bottom: 30px;
+}
+
+.advantages p:first-child {
+  margin-bottom: 40px;
+}
